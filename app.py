@@ -26,7 +26,7 @@ from openai import APIConnectionError
 matplotlib.use('Agg')
 
 # Укажите ваш токен Telegram-бота
-API_TOKEN = '7033028733:AAFTn3K4h9bAV0dEPSClYIMk_RPTlQaMUcg'
+API_TOKEN = 'your telegram api'
 bot = telebot.TeleBot(API_TOKEN, parse_mode=None)
 
 # Промокоды
